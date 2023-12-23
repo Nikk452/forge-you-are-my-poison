@@ -125,8 +125,8 @@ repositories {
 }
 mixin {
     // MixinGradle Settings
-    add sourceSets.main, 'youaremypoison.mixins.refmap.json'
-    config 'youaremypoison.mixins.json'
+    add sourceSets.main, 'mixins.youaremypoison.refmap.json'
+    config 'mixins.youaremypoison.json'
 }
 dependencies {
     // Specify the version of Minecraft to use.

@@ -9,5 +9,5 @@
   "injectors": {
     "defaultRequire": 1
   },
-  "refmap": "youaremypoison.mixins.refmap.json"
+  "refmap": "mixins.youaremypoison.refmap.json"
 }
