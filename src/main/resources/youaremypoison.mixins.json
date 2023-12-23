@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.nikk.youaremypoison.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AnimalMixin",
+    "ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "youaremypoison.mixins.refmap.json"
+}
