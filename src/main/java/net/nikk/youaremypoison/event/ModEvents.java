@@ -39,8 +39,9 @@ public class ModEvents {
                         PotionUtils.setCustomEffects(poisoned,list);
                         poisoned.getOrCreateTag().putBoolean("effects",true);
                         if(!user.getAbilities().instabuild) {
+                            boolean is_potion = itemStack.is(Items.POTION);
                             itemStack.shrink(1);
-                            if(itemStack.is(Items.POTION)) {
+                            if(is_potion) {
                                 if (itemStack.isEmpty()) user.getInventory().offhand.set(0,new ItemStack(Items.GLASS_BOTTLE));
                                 else user.getInventory().add(new ItemStack(Items.GLASS_BOTTLE));
                             }
